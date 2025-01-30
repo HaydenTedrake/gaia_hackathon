@@ -22,7 +22,7 @@ df['phot_rp_mean_mag'] = pd.to_numeric(df['phot_rp_mean_mag'], errors='coerce')
 df = df[df['parallax'] > 0]
 
 # Calculate Absolute Magnitude (G_abs)
-df['G_abs'] = df['phot_g_mean_mag'] + 5 * (np.log10(df['parallax'] / 1000) + 5)
+df['G_abs'] = df['phot_g_mean_mag'] - 5 * (np.log10(df['parallax'] / 1000) + 5)
 
 # Calculate Color Index (Bp-Rp)
 df['Bp-Rp'] = df['phot_bp_mean_mag'] - df['phot_rp_mean_mag']
