@@ -58,7 +58,7 @@ Execute the script to:
 - Visualize clustered stars in 2D and 3D
 
 ```bash
-python clustering_script.py
+python cluster_algorithm_and_plot.py
 ```
 
 ### Generating the HR Diagram
