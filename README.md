@@ -69,7 +69,7 @@ Execute the script to:
 - Plot the HR diagram
 
 ```bash
-python hr_diagram_script.py
+python hertzsprung_russel.py
 ```
 
 ## Visualization Outputs
