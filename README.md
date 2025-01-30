@@ -83,6 +83,7 @@ python hertzsprung_russel.py
 - In the HR diagram, hotter stars appear on the left (temperature axis is inverted).
 
 ## License
+Copyright (c) 2025 Hayden Tedrake
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
